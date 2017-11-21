@@ -107,6 +107,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 .bottom-right-side {
     display: flex;
+    flex-direction: column;
     background-color: white;
     border-color: lightgrey;
     border-width: 1px;
