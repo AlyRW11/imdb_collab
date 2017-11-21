@@ -86,7 +86,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     color: rgb(51, 48, 20);
 }
 
-.Endingv {
+.Ending {
     display: flex;
     flex-direction: column;
     justify-content: space-around;   
