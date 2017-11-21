@@ -1,11 +1,103 @@
+html{
+    background-color: lightgrey;
+}
 .container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    font-family: tahoma;
+    font-size: 14px;
+    box-shadow: rgb(17, 86, 175);
 }
-
-.Ending{
+.navigation {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;   
-    align-content: flex-start;
+    justify-content: flex-start;
+    color: #FFFFFD;
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top, #4c4c4c 0%, #2d2d2d 20%, #000000 49%, #111111 77%, #1c1c1c 88%, #2b2b2b 100%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4c4c4c 0%,#2d2d2d 20%,#000000 49%,#111111 77%,#1c1c1c 88%,#2b2b2b 100%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4c4c4c 0%,#2d2d2d 20%,#000000 49%,#111111 77%,#1c1c1c 88%,#2b2b2b 100%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+
+.links {
+    border-color: grey;
+    background-color: white;
+    color: brown;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.about-her {
+    border-color: grey;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.beige-box {
+    border-color: rgb(212, 212, 127);
+    padding: 3px;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+}
+.movies {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color: #000;
+}
+
+.film {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px;
+    background-color: white;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    color: #E4D626;
+}
+
+.Endingv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    align-content: space-around;
+}
+
+.page {
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+}
+.bottom-right-side {
+    display: flex;
+    background-color: white;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
 }
