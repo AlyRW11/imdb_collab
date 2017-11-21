@@ -6,7 +6,7 @@ html{
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     font-family: tahoma;
     font-size: 14px;
-    box-shadow: rgb(17, 86, 175);
+    padding: 100px;
 }
 .navigation {
     display: flex;
@@ -48,15 +48,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 .beige-box {
     border-color: rgb(212, 212, 127);
-    padding: 3px;
     background-color: white;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: stretch;
+    padding: 3px 1px 3px 1px;
 }
+
+.second-beige-box{
+    background-color: rgb(212, 212, 127);
+    color: white;
+    padding: 10px;
+}
+
 .movies {
     display: flex;
     flex-direction: column;
@@ -76,7 +83,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     border-color: lightgrey;
     border-width: 1px;
     border-style: solid;
-    color: #E4D626;
+    color: rgb(51, 48, 20);
 }
 
 .Endingv {
