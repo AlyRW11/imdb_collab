@@ -117,11 +117,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 .Ending {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;   
-    align-content: space-around;
+    margin-left: 10px;
+    align-items: baseline;
 }
-
+.ending button {
+    margin-left: 10px;
+    border-color: #D5AB55 #c93 #c93 #D5AB55;
+    background-color: #f3ce00;
+}
+.selected{
+   background-color: rgba(243, 206, 0, .24)!important;
+}
 .page {
     display: flex;
 }
