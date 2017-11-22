@@ -134,6 +134,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     border-width: 1px;
     border-style: solid;
 }
+
+.smaller-image {
+    width: 300px;
+}
+
 .bottom-right-side {
     display: flex;
     flex-direction: column;
@@ -141,5 +146,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     border-color: lightgrey;
     border-width: 1px;
     border-style: solid;
+    grid-column-start: 5;
+    grid-column-end: 6; 
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 }
