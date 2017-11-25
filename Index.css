@@ -1,45 +1,31 @@
-
-html{
+html {
     background-color: lightgrey;
 }
-
-ul{
+ul {
     color: white;
     list-style: none;
 }
-
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
 }
-@media only screen and (max-width : 320px){
-}
-
-@media only screen and (min-width : 320px) and (max-width: 480px){  
-}
-
-@media only screen and (min-width : 500px){ 
 .container {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     font-family: tahoma;
-    font-size: 14px;
-   
+    font-size: 14px;  
 }
 .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: #FFFFFD;
-background: #4c4c4c; /* Old browsers */
-background: -moz-linear-gradient(top, #4c4c4c 0%, #2d2d2d 20%, #000000 49%, #111111 77%, #1c1c1c 88%, #2b2b2b 100%, #131313 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #4c4c4c 0%,#2d2d2d 20%,#000000 49%,#111111 77%,#1c1c1c 88%,#2b2b2b 100%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #4c4c4c 0%,#2d2d2d 20%,#000000 49%,#111111 77%,#1c1c1c 88%,#2b2b2b 100%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(top, #4c4c4c 0%, #2d2d2d 20%, #000000 49%, #111111 77%, #1c1c1c 88%, #2b2b2b 100%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4c4c4c 0%,#2d2d2d 20%,#000000 49%,#111111 77%,#1c1c1c 88%,#2b2b2b 100%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4c4c4c 0%,#2d2d2d 20%,#000000 49%,#111111 77%,#1c1c1c 88%,#2b2b2b 100%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
 }
-
 .links {
     border-color: grey;
     background-color: white;
@@ -49,14 +35,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .other-links{
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
 .about-her {
     border-color: grey;
     background-color: white;
@@ -67,14 +51,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     flex-direction: row;
     justify-content: flex-start
 }
-
 .more-about-her {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-content: flex-start;
 }
-
 .beige-box {
     border-color: rgb(212, 212, 127);
     background-color: white;
@@ -86,13 +68,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     align-content: stretch;
     padding: 3px 1px 3px 1px;
 }
-
 .second-beige-box{
     background-color: rgb(212, 212, 127);
     color: white;
     padding: 10px;
 }
-
 .movies {
     display: flex;
     flex-direction: column;
@@ -102,7 +82,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     border-style: solid;
     color: #000;
 }
-
 .film {
     display: flex;
     flex-direction: row;
@@ -114,7 +93,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     border-style: solid;
     color: rgb(51, 48, 20);
 }
-
 .Ending {
     display: flex;
     margin-left: 10px;
@@ -131,7 +109,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 .page {
     display: flex;
 }
-
 .right-side {
     display: flex;
     flex-direction: column;
@@ -140,11 +117,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     border-width: 1px;
     border-style: solid;
 }
-
 .smaller-image {
     width: 300px;
 }
-
 .bottom-right-side {
     display: flex;
     flex-direction: column;
@@ -156,5 +131,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
     grid-column-end: 6; 
     grid-row-start: 5;
     grid-row-end: 6;
-}
 }
