@@ -2,7 +2,6 @@ html {
     background: white;
 }
 ul {
-    color: white;
     list-style: none;
 }
 footer {
@@ -11,12 +10,15 @@ footer {
     justify-content: space-between;
     align-content: space-between;
 }
+.roles {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+}
 
 .roles > div {
-    background: blue;
-    padding: 2[x;]
+    background:lightblue;
 }
 .roles > div:nth-child(odd) {
-    background: green;
-    padding: 2px;
+    background:lightcyan;
 }
