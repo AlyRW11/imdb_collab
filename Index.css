@@ -41,6 +41,32 @@ footer {
     justify-content: flex-start;
     padding: 5px;
 }
+.beige-box{
+    border-color: rgb(212, 212, 127);
+    background-color: rgb(212, 212, 127);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.movies {
+    background-color: white;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.film {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px;
+    background-color: white;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(51, 48, 20);
+}
+
 .roles {
     display: flex;
     flex-direction: column;
@@ -49,10 +75,10 @@ footer {
 }
 
 .roles > div {
-    background:lightblue;
+    background:#e0e3e6;
 }
 .roles > div:nth-child(odd) {
-    background:lightcyan;
+    background:#eff1f1;
 }
 
 .links {
@@ -71,6 +97,23 @@ footer {
     justify-content: left;
     height: 60px;
 }
+.right-side {
+    border-color: grey;
+    background-color: rgb(248, 247, 247);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .smaller-image {
-    width: 300px;
+    width: 200px;
 }   
+
+.bottom-right-side {
+    border-color: grey;
+    background-color: rgb(248, 247, 247);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
