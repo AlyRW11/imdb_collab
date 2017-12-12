@@ -1,5 +1,5 @@
 html {
-    background: white;
+    background: rgb(223, 221, 221);
 }
 ul {
     list-style: none;
@@ -24,6 +24,7 @@ footer {
 }
 
 .main-page {
+    background: white;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-column-gap: 1em;
@@ -38,10 +39,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 5px;
 }
 .roles {
     display: flex;
     flex-direction: column;
+    padding: 1px;
     align-content: left;
 }
 
@@ -51,6 +54,23 @@ footer {
 .roles > div:nth-child(odd) {
     background:lightcyan;
 }
-.right-side {
-    size: 200 px;
-}    
+
+.links {
+    border-color: grey;
+    background-color: rgb(248, 247, 247);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.other-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    height: 60px;
+}
+.smaller-image {
+    width: 300px;
+}   
